@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,400;1,700&family=Work+Sans:wght@300;400&display=swap');
+
+:root{
+    --primary-color: #f43f5e;
+    --dark-gray: #9ca3af;
+    --offwhite: #f3f4f6;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin:0px;
+    
+}
+hr{
+    margin: 2rem;
+}
+/**Container**/
+.container {
+    padding-left:1rem;
+    padding-right:1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/**links**/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+}
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:white;
+
+}
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 0.5px solid var(--primary-color);
+}
+
+/**lists**/
+.list-space{
+    padding: 1rem;
+}
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display:inline;
+    padding: 0rem 0.5rem;
+}
+.list-skill{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/**Navigation**/
+.navigation{
+    background-color: var(--primary-color);
+    color:white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.navigation .nav-name-brand{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.navigation .link{
+    color: white;
+}
+.navigation .nav-pills{
+    text-align: right;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+
+
+/**Header**/
+.hero{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+.hero .hero-img{
+    width: 350px;
+    display: block;
+    margin: auto;
+
+} 
+
+.hero .hero-heading{
+    padding-top: 1rem;
+    color: var(--dark-gray) ;
+    text-align: center;
+}
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+}
+/**Sections**/
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+.ow{
+    background-color: var(--offwhite);
+}
+/**Footer**/
+.footer{
+    background-color: var(--primary-color);
+    padding:2rem 1rem;
+    text-align: center;
+    color: white;
+    bottom: 0rem;
+    margin-top: 10rem;
+    border-radius: 0.5rem;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.output{
+    border: 5px solid black;
+    width: 80%;
+    display: block;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.textarea{
+    width:80%;
+    display:block;
+    height:10vh;
+    margin: 1rem;
+    padding:1rem;
+    border-radius: 0.5rem;
+    border: 5px solid black;
+        
+}
+.btn{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:white;
+    padding:0.5rem 0.5rem;
+    font-size: larger;
+}
+.output-heading{
+    font-size: 2rem;
+    font-weight:bold;
+    color: var(--primary-color)
+}
+.head{
+    border:1px solid transparent;
+    display:block;
+    color:var(--primary-color);
+    width:70%;
+    font-size:1.5rem;
+    font-weight: bold;
+    background-color: white;
+    height:5vh;
+}
